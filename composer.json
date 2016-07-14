@@ -1,10 +1,13 @@
 {
-    "name": "crodas/languagedetector",
+    "name": "corollarium/languagedetector",
     "description": "simple library to classify texts",
     "authors": [
         {
             "name": "César D. Rodas",
             "email": "crodas@php.net"
+        },
+        {
+            "name": "Corollarium"
         }
     ],
     "require": {
@@ -15,7 +18,7 @@
         "crodas/Autoloader": "~0.1"
     },
     "license": "BSD-4-Clause",
-    "version": "v0.1.1",
+    "version": "v0.1.2",
     "scripts": {
         "post-autoload-dump": "Autoloader\\Composer::generate"
     },
