@@ -1,5 +1,4 @@
-LanguageDetector
-
+LanguageDetector[![Build Status](https://travis-ci.org/Corollarium/LanguageDetector.svg?branch=master)](https://travis-ci.org/Corollarium/LanguageDetector)
 ================
 
 This is a fork from https://github.com/crodas/LanguageDetector adding several new languages. Text for the
