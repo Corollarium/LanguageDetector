@@ -1,17 +1,19 @@
 LanguageDetector[![Build Status](https://travis-ci.org/Corollarium/LanguageDetector.svg?branch=master)](https://travis-ci.org/Corollarium/LanguageDetector)
 ================
 
-This is a fork from https://github.com/crodas/LanguageDetector adding several new languages. Text for the
-samples is from Wikipedia.
-
 PHP Class to detect languages from any free text.
 
 It follows the approach described in the [paper](http://scholar.google.com.py/scholar?q=N-Gram-Based+Text+Categorization), a given text is tokenized into [N-Grams](http://en.wikipedia.org/wiki/N-gram) (we cleanup whitespaces before doing this step). Then we sort the `tokens` and we compare against a language `model`.
 
+Fork
+-----
+
+This is a fork from https://github.com/crodas/LanguageDetector adding [several new languages](https://github.com/Corollarium/blob/master/example/samples). Language names are also in ISO-639 format instead of english names. Text for many of the language samples is from Wikipedia.
+
 How it works
 ------------
 
-The first thing we need is a `language model` (which looks like [this file](https://github.com/crodas/LanguageDetector/blob/master/example/datafile.php)) that is used to compare the texts against at classification time. This process must done *before* anything, and it can be generated with an script similar to [this file](https://github.com/crodas/LanguageDetector/blob/master/example/learn.php).
+The first thing we need is a `language model` (which looks like [this file](https://github.com/Corollarium/LanguageDetector/blob/master/example/datafile.php)) that is used to compare the texts against at classification time. This process must done *before* anything, and it can be generated with an script similar to [this file](https://github.com/crodas/LanguageDetector/blob/master/example/learn.php).
 
 ```php
 // register the autoloader
