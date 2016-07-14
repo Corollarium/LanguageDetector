@@ -16,3 +16,7 @@ var_dump($detect->detect("* This file implements in memory hash tables with inse
 
 var_dump($detect->detect("House of Cards is an American political drama series developed and produced by Beau Willimon. It is an adaptation of a previous BBC miniseries of the same name which is based on the novel by Michael Dobbs. The entire first season premiered on February 1, 2013, on the streaming service Netflix.[1] A second season of 13 episodes is currently in production.[1][2]
             "));
+
+var_dump($detect->detect("हिन्दी का क्षेत्र विशाल है तथा हिन्दी की अनेक बोलियाँ (उपभाषाएँ) हैं। इनमें से कुछ में अत्यंत उच्च श्रेणी के साहित्य की रचना भी हुई है। ऐसी बोलियों में ब्रजभाषा और अवधी प्रमुख हैं। ये बोलियाँ हिन्दी की विविधता हैं और उसकी शक्ति भी। वे हिन्दी की जड़ों को गहरा बनाती हैं। हिन्दी की बोलियाँ और उन बोलियों की उपबोलियाँ हैं जो न केवल अपने में एक बड़ी परंपरा, इतिहास, सभ्यता को समेटे हुए हैं वरन स्वतंत्रता संग्राम, जनसंघर्ष, वर्तमान के बाजारवाद के खिलाफ भी उसका रचना संसार सचेत है।[9]"));
+
+var_dump($detect->detect("১৯৫১-৫২ খ্রিস্টাব্দে পূর্ব পাকিস্তানে সংগঠিত বাংলা ভাষা আন্দোলন এই ভাষার সাথে বাঙালি অস্তিত্বের যোগসূত্র স্থাপন করেছিল। ১৯৫২ খ্রিস্টাব্দের ২১শে ফেব্রুয়ারি, ঢাকা বিশ্ববিদ্যালয়ে প্রতিবাদী ছাত্র ও আন্দোলনকারীরা মাতৃভাষা বাংলায় কথা বলা ও লেখাপড়ার অধিকারের দাবীতে নিজেদের জীবন উৎসর্গ করেন। মাতৃভাষার জন্য তাঁদের বলিদানের স্বীকৃতি স্বরূপ ১৯৯৯ খ্রিস্টাব্দে ইউনেস্কো ২১শে ফেব্রুয়ারি দিনটিকে আন্তর্জাতিক মাতৃভাষা দিবস হিসেবে ঘোষণা করে।"));
