@@ -24,3 +24,5 @@ var_dump($detect->detect("১৯৫১-৫২ খ্রিস্টাব্দ�
 var_dump($detect->detect('Ocenia się, że język polski jest językiem ojczystym około 44 milionów ludzi na świecie[1] (w literaturze naukowej można spotkać szacunki od 39[2][3] do 48 milionów[4]), mieszkańców Polski oraz tzw. Polonii, czyli Polaków zamieszkałych za granicą.'));
 
 var_dump($detect->detect('Die benaming word ontleen aan die verskynsel dat die Indo-Europese tale onder te verdeel is in een groep waarby die woord vir die getal 100 met velare of palatale plofklank begin (byvoorbeeld k), en in een groep waarby die woord vir 100 met \'n alveolêre of \'n palato-alveolêre frikatiewe klank begin (byvoorbeeld s of sj).'));
+
+var_dump($detect->detect('Po osmanlijskom osvajanju, koje je započelo 1463. godine, a nastavilo se u raznim područjima današnje BiH u narednih 50 godina, dolazi do znatnih jezičkih promjena.'));
