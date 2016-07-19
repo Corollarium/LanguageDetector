@@ -22,3 +22,5 @@ var_dump($detect->detect("हिन्दी का क्षेत्र वि
 var_dump($detect->detect("১৯৫১-৫২ খ্রিস্টাব্দে পূর্ব পাকিস্তানে সংগঠিত বাংলা ভাষা আন্দোলন এই ভাষার সাথে বাঙালি অস্তিত্বের যোগসূত্র স্থাপন করেছিল। ১৯৫২ খ্রিস্টাব্দের ২১শে ফেব্রুয়ারি, ঢাকা বিশ্ববিদ্যালয়ে প্রতিবাদী ছাত্র ও আন্দোলনকারীরা মাতৃভাষা বাংলায় কথা বলা ও লেখাপড়ার অধিকারের দাবীতে নিজেদের জীবন উৎসর্গ করেন। মাতৃভাষার জন্য তাঁদের বলিদানের স্বীকৃতি স্বরূপ ১৯৯৯ খ্রিস্টাব্দে ইউনেস্কো ২১শে ফেব্রুয়ারি দিনটিকে আন্তর্জাতিক মাতৃভাষা দিবস হিসেবে ঘোষণা করে।"));
 
 var_dump($detect->detect('Ocenia się, że język polski jest językiem ojczystym około 44 milionów ludzi na świecie[1] (w literaturze naukowej można spotkać szacunki od 39[2][3] do 48 milionów[4]), mieszkańców Polski oraz tzw. Polonii, czyli Polaków zamieszkałych za granicą.'));
+
+var_dump($detect->detect('Die benaming word ontleen aan die verskynsel dat die Indo-Europese tale onder te verdeel is in een groep waarby die woord vir die getal 100 met velare of palatale plofklank begin (byvoorbeeld k), en in een groep waarby die woord vir 100 met \'n alveolêre of \'n palato-alveolêre frikatiewe klank begin (byvoorbeeld s of sj).'));
